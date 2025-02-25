@@ -1,0 +1,57 @@
+/* 
+CSS Selectors
+--- * chose all ElS in page;
+---Element =>[p,div,h,...];
+---Element Other Element =>[div p, div h,....];
+--- Class Name
+---#Id Name
+---.perant .chiled
+---.class-one.class-tow =>ele have bothe classes;
+---.class-name > .chiled [direct chiled only]
+---Element + Other Element =>[ div + p]//look for p have div before itselfe directly 
+---Element ~ Other Element=>[ p ~ div] //look for brother divs after p 
+---[attripute]
+---Element[attripute]
+---[attripute = value]
+---Element[attripute=value]
+---[attripute~=value] =>contains A word
+---[attripute*=value]=>contains A string
+---[attripute^=value]=>start with A string
+---PART 3
+---Element:first-child
+---Element:first-child
+---Element:last-child 
+---Element:first-of-type
+---Element:last-of-type  
+---Element:only-child
+---Element:only-of-type
+==============================================
+part4
+============================================
+---:not(selectors)
+---:nth-child(number||even||oddd)/search
+---:nth-last-child(number||even||oddd)
+---:nth-of-type(number||even||oddd)
+---:nth-last-of-type(number||even||oddd)
+==============================================
+part5
+============================================
+---:root
+---:checked
+---:empty
+---:disabled 
+---:required 
+---::selection
+---::placeholder
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class-name>.chiled {}
